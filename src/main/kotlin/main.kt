@@ -1,5 +1,6 @@
 fun main() {
-   /* compareTriplet()
+    compareTriplet()
+
     println("Result is : ${fizzBuzz(5)}")
     fizzBuzzTest()
 
@@ -7,7 +8,7 @@ fun main() {
 
     val elementSearch = 120
     linearSearchPractice(data, elementSearch,  data.size)
-*/
+
     val pricesOfStock = arrayOf(100, 180, 260, 310, 40, 535, 695)
 
     val result = maxProfit(pricesOfStock)
