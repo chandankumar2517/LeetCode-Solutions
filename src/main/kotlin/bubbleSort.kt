@@ -35,6 +35,20 @@ fun main() {
     println("UnSorted Array is $data")
     val sortedResult = bubbleSort(data.toIntArray())
     println("Sorted Array is ${sortedResult.joinToString(separator = " ")}")
+
+    getMinAndMaxValue(sortedResult)
+}
+
+/***
+ * find min and max value
+ * in an array as array is already
+ * sorted using bubble sort technique
+ * now we know at zero and last position are
+ * min n max so directly we can print it
+ */
+fun getMinAndMaxValue(sortedResult: IntArray) {
+    println("Minimum value is ${sortedResult[0]}")
+    println("Maximum value is ${sortedResult[sortedResult.size - 1]}")
 }
 
 /***
