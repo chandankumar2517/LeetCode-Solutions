@@ -10,44 +10,11 @@
  */
 
 fun main() {
-    val data = listOf(
-        2,
-        9,
-        6,
-        3,
-        7,
-        8,
-        1,
-        2,
-        5,
-        100,
-        110,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131
-    )
     val searchItem = 5
     val left = 0
-    val right = data.size - 1
+    val right = dataListItem.size - 1
 
-    val sortedData = data.sorted()
+    val sortedData = dataListItem.sorted()
 
     println("Sorted array is $sortedData")
     println("Element to be searched inside Array $searchItem")

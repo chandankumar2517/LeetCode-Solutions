@@ -1,6 +1,5 @@
-fun main(args: Array<String>) {
-    val data = listOf(2,9,4,6,3,7,8,1,2,5)
-    divideAndConquer(data, data.size)
+fun main() {
+    divideAndConquer(dataListItem, dataListItem.size)
 }
 
 

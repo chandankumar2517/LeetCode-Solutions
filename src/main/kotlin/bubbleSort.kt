@@ -1,39 +1,6 @@
 fun main() {
-    val data = listOf(
-        2,
-        9,
-        6,
-        3,
-        7,
-        8,
-        1,
-        2,
-        5,
-        100,
-        110,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131
-    )
-    println("UnSorted Array is $data")
-    val sortedResult = bubbleSort(data.toIntArray())
+    println("UnSorted Array is $dataListItem")
+    val sortedResult = bubbleSort(dataListItem.toIntArray())
     println("Sorted Array is ${sortedResult.joinToString(separator = " ")}")
 
     getMinAndMaxValue(sortedResult)

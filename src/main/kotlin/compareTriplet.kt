@@ -1,3 +1,8 @@
+/***
+ * ANAGRAM -
+ * LISTEN = SILENT
+ */
+
 fun compareTriplet() {
     val alice = readLine()!!.split("").map { it.toInt() }
     val bob = readLine()!!.split("").map { it.toInt() }
@@ -15,16 +20,15 @@ object GFG {
 
     /* function to check whether two
 	strings are anagram of each other */
-    fun areAnagram(str1: String, str2: String): Boolean {
+   private fun areAnagram(str1: String, str2: String): Boolean {
         // Create two count arrays and initialize
         // all values as 0
         val count = IntArray(NO_OF_CHARS)
-        var i: Int
 
         // For each character in input strings,
         // increment count in the corresponding
         // count array
-        i = 0
+        var i: Int = 0
         while (i < str1.length && i < str2.length) {
             count[str1[i].toInt()]++
             count[str2[i].toInt()]--
