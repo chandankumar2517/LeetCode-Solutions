@@ -11,7 +11,7 @@ fun anagramHash(firstString: String, secondString: String): Boolean {
     val arr1: CharArray = firstString.toCharArray()
     val arr2: CharArray = secondString.toCharArray()
 
-    for (i in 0..arr1.size) {
+    for (i in 0 until arr1.size) {
        if(hashMapOne[arr1[i]] == null) {
            hashMapOne[arr1[i]] = 1
        } else {
@@ -20,7 +20,7 @@ fun anagramHash(firstString: String, secondString: String): Boolean {
        }
     }
 
-    for (j in 0..arr2.size) {
+    for (j in 0 until arr2.size) {
         if(hashMapTwo[arr2[j]] == null) {
             hashMapTwo[arr2[j]] = 1
         } else {
